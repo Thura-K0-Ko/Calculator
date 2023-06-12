@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+
+body{
+    background-color: #0a0000;
+}
+
+.display{
+    color: #ffffff;
+    text-align: right;
+    padding: 15px;
+    font-size: 50px;
+    height: 90px;
+    display: inline-block;
+    width: 252px;
+    overflow: scroll;
+}
+.calc{
+    width: 252px;
+    margin: 50px auto;
+
+}
+
+.key{
+    background-color: #333;
+    color: #ffffff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 35px;
+    border: 1px solid #000;
+    text-align: center;
+    border-radius: 50%;
+    margin: 2px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.key:active{
+    background-color: #33333390;
+
+}
+.zero{
+    width: 124px;
+    border-radius: 50px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+tr:first-child .key{
+    background-color: #a5a5a5;
+    color: #000000;
+    
+}
+tr:first-child .key:active{
+    background-color: #a5a5a590;
+    color: #000000;
+}
+
+tr td:last-child .key{
+    background-color: #ffa45c;
+    color: #ffffff;
+}
+tr td:last-child .key:active{
+    background-color: #ffa45c90;
+    color: #ffffff;
+}
